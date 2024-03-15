@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: url(./bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lime;
+    background-color:transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+     /*backdrop-filter: blur(1px); */
+}
+
+h1 {
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 0 0 30px black;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 92%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid ;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid ;
+    border-radius: 7px;
+}
+
+button {
+    background-color: rgba(1, 1, 2, 0.733);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgb(235, 225, 135);
+}
+
+.container label{
+    color: white;
+    font-family: cursive;
+}
